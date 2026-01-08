@@ -19,18 +19,18 @@ Le code est modulaire pour faciliter la maintenance et l'évolution :
 
 | Fichier |
 
-| `main.py` | Point d'entrée. Tableau de bord CLI pour orchestrer les étapes. |
+| `main.py` | Point d'entrée. Tableau de bord pour orchestrer les étapes. |
 | `config.py` | Configuration globale (Clés API, Périodes, Paramètres mathématiques). |
 | `data_processor.py` | Téléchargement des données historiques Binance et nettoyage. |
 | `pair_selector.py` | Scan des paires cointégrées (Engle-Granger) et filtres ECM. |
-| `robustness.py` | Test de robustesse via fenêtres glissantes (Multiprocessing inclus). |
+| `robustness.py` | Test de robustesse via fenêtres glissantes |
 | `backtester.py` | Optimisation des paramètres (Entry/Exit/Stop) sur le jeu d'entraînement. |
 | `live_simulator.py` | Simulation "Paper Trading" sur les données hors-échantillon. |
 | **`research/`** | **Dossier contenant les notebooks, tests préliminaires etc** |
 
 ## Installation
 
-1.  **Télécharger le codde :**
+1.  **Télécharger le code (les fichiers .py) dans un même dossier :**
 
 
 2.  **Installer les dépendances :**
