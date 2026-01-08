@@ -17,7 +17,8 @@ Ce projet implémente un pipeline complet de Pair Trading sur le marché des cry
 
 Le code est modulaire pour faciliter la maintenance et l'évolution :
 
-| Fichier | Description |
+| Fichier |
+
 | `main.py` | Point d'entrée. Tableau de bord CLI pour orchestrer les étapes. |
 | `config.py` | Configuration globale (Clés API, Périodes, Paramètres mathématiques). |
 | `data_processor.py` | Téléchargement des données historiques Binance et nettoyage. |
