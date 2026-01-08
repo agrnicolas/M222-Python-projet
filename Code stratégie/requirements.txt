@@ -1,0 +1,19 @@
+# Données et Calculs
+pandas     
+numpy       
+
+# Stats & Modélisation
+statsmodels # Tests de cointégration, ADF, OLS
+scipy       # Tests statistiques supplémentaires
+
+# Visualisation 
+matplotlib
+seaborn    
+
+# Algo
+deap        # Algo génétique
+
+# Requete données
+python-binance
+yfinance    # Pour récupérer des données historiques Yahoo Finance
+requests    # Pour les appels API bruts
